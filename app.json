@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "shiba",
+    "slug": "shiba",
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icons/logo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/images/A New Design - Made with PosterMyWall.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.hamilton.Shiba"
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icons/logo.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.hamilton.Shiba",
+      "versionCode": 7,
+      "permissions": []
+    },
+    "web": {
+      "favicon": "./assets/icons/logo.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3b1281ec-8077-473a-931e-355f101ef3b9"
+      }
+    }
+  }
+}
